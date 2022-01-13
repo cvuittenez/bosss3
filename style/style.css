@@ -1,0 +1,170 @@
+html {
+    background-color: #fff9f2;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #f6e9d9;
+    height: 15%;
+    padding-bottom: 0.5vw;
+    margin: 0;
+}
+
+p{
+    font-family: Raleway;
+    font-size: 1.5vw;
+    width: 70vw;
+    padding-left: 15vw;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 0;
+    padding-top: 5vw;
+    font-weight: bolder;
+    color: #F6E9D9;
+    font-family: Futura;
+}
+
+h2 {
+    font-size: 3vw;
+    font-family: Futura;
+    font-weight: normal;
+    color: black;
+}
+
+h3{
+    margin-top: 0;
+ font-size: 2rem;
+}
+
+h4{
+    font-size: 1vw;
+    font-family: Futura;
+    color: #F6E9D9;
+}
+
+.imageacc h1,h3,
+.imagebio h1,h3{
+    font-family: Futura;
+    color: #f6e9d9;
+    margin-left: 10vw;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+header ul{
+    background-color: #F6E9D9;
+    display: flex;
+}
+
+header ul li{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+header ul li a{
+    color: #2E4134;
+    text-decoration: none;
+    font-family: Raleway, serif;
+    font-size: 1.5vw;
+}
+
+header ul li a img {
+    max-width: 100px;
+    padding-top: 10px;
+}
+
+.banniere{
+    width: 100vw;
+    height: auto;
+}
+
+
+.imageacc{
+    margin-top: -50px;
+    background: url('../img/lakers-giannis.jpg');
+    height: 70vh;
+    width: 100vw;
+}
+
+.imagebio{
+    margin-top: -50px;
+    background: url('../img/giannis_bio.jpg');
+    height: 70vh;
+    width: 100vw;
+}
+
+.imagecar{
+    margin-top: -50px;
+    background: url('../img/giannis_car.jpeg');
+    height: 70vh;
+    width: 100vw;
+}
+
+.imageimg{
+    margin-top: -50px;
+    background: url('../img/giannisimg.jpg');
+    height: 70vh;
+    width: 100vw;
+}
+
+.imagetro{
+    margin-top: -50px;
+    background: url('../img/giannis_tro.jpg');
+    height: 70vh;
+    width: 100vw;
+}
+
+footer {
+    background-color: #2b8046;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    margin: 20px;
+}
+
+footer ul li ul li a{
+    text-decoration: none;
+    color: #F6E9D9;
+    font-size: .5vw;
+    font-family: Raleway;
+}
+
+footer ul li.sup p {
+    width: 10vw;
+    font-size: .5vw;
+    font-family: Raleway;
+    color: #F6E9D9;
+}
+
+/telephone/
+
+@media (max-width: 768px) {
+    .imageacc{
+        margin-top: -50px;
+        background: no-repeat url('../img/lakers-giannis.jpg');
+        height: 50vw;
+    }
+
+}
+
+body{
+    overflow-x: hidden;
+    align-items: center;
+}
